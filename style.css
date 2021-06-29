@@ -1,0 +1,166 @@
+* {
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: black;
+    max-height: 720px;
+    max-width: 1440px;
+    margin: auto;
+    
+    background-color:hsl(185, 75%, 39%) ;
+    background-image: url(./images/bg-pattern-bottom.svg), url(./images/bg-pattern-top.svg);
+    background-position: 101% -220%, -1% 220%;
+    background-repeat: no-repeat;
+    background-size: 50%, 50%;
+
+
+
+}
+
+.container{
+    font-family: 'Kumbh Sans', sans-serif;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.profileContainer {
+    width: 350px;
+    height: 400px;
+    background-color: azure;
+
+    margin-top: 200px;
+    margin-bottom: 250px;
+    margin-left: 50%;
+    border-radius: 20px;
+    transform: translateX(-50%);
+
+    display: grid;
+    grid-template-columns: 1;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    overflow: hidden;
+    
+}
+
+.profilePhoto {
+    border-radius: 50%;
+    margin: 15px;
+    align-items: center;
+}
+
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.2rem
+ 
+}
+
+
+.secondSection img{
+    transform: translateY(-70%);
+    
+}
+
+.secondSection p{
+    transform: translateY(-320%);
+}
+
+
+.thirdSection{
+    border-top: 2px solid lightgray;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    transform: translateY(-10%);
+}
+
+.gridItem {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+.bottom{
+    margin-bottom: px;
+
+}
+.thirdSection strong{
+    font-size: 1.2rem;
+}
+
+strong{
+    font-weight: 700;
+}
+
+
+
+.attribution {
+    font-size: 14px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 500px) {
+
+    .container{
+        font-family: 'Kumbh Sans', sans-serif;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .profileContainer {
+        width: 300px;
+        height: 350px;
+        background-color: azure;
+    
+        margin-top: 200px;
+        margin-bottom: 250px;
+        margin-left: 50%;
+        border-radius: 20px;
+        transform: translateX(-50%);
+    
+        display: grid;
+        grid-template-columns: 1;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+        overflow: hidden;
+        
+    }
+    
+    .profilePhoto {
+        border-radius: 50%;
+        margin: 15px;
+        align-items: center;
+    }
+    
+    p{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 1.2rem
+     
+    }
+    
+}
