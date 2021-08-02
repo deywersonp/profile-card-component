@@ -1,5 +1,5 @@
 <h1 align="center">
- TODO List
+ Profile Card Component
 </h1>
 
 <p align="center">
